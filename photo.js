@@ -1,3 +1,4 @@
+
 class Photo {
     constructor(width = 8, height = 10) {
         this.width = width;
@@ -55,6 +56,7 @@ class FramedPhoto extends Photo {
     }
 }
 
+export function codeTest() {
 let photo1 = new Photo(8, 10);
 console.log(photo1.toString());
 let photo2 = new Photo(10, 12);
@@ -67,3 +69,4 @@ let frPhoto1 = new FramedPhoto(11, 13, "silver", "gothic");
 console.log(frPhoto1.toString());
 let frPhoto2 = new FramedPhoto(14, 15, "gold", "mpdern");
 console.log(frPhoto2.toString());
+}
